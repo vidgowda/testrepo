@@ -11,6 +11,7 @@
        01 WS-VAR-2 PIC 9(9).                                            00100020
        01 WS-VAR-4 PIC 9(9).                                            00100227
        01 WS-VAR-3 PIC 9 VALUE 9.                                       00101017
+CHGTAG 01 WS-TEST-VAR PIC X VALUE 'T'.
        PROCEDURE DIVISION.                                              00110000
        0000-MAIN-PARA.                                                  00120000
             MOVE '123456789' TO WS-VAR-1                                00130005
